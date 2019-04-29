@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="andprj.mgureken.com.android_db.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/txtKullanici"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text=""
+            android:hint="Kullanıcı adını giriniz"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/txtSifre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text=""
+            android:hint="Şifrenizi giriniz"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btnGiris"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="GİRİŞ YAP"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
